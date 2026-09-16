@@ -1,0 +1,15 @@
+*.gguf
+*.bin
+models/
+blobs/
+.cache/
+captures/
+*.mp4
+*.mov
+*.mkv
+*.log
+.env
+*.key
+*.pem
+desktop.ini
+Thumbs.db
