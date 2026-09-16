@@ -1,4 +1,4 @@
-# Qwen 3.6 35B-A3B vs Gemma 4 26B-A4B en RTX 5070 12 GB
+# Qwen 3.6 35B-A3B vs Gemma 4 26B-A4B
 
 Comparativa práctica de dos configuraciones de IA local que caben y funcionan en una **NVIDIA GeForce RTX 5070 de 12 GB**, usando `llama.cpp` y Llama UI.
 
