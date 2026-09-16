@@ -1,0 +1,30 @@
+Escribe una función en Python llamada ventana_maxima(datos, k).
+
+Requisitos:
+
+- "datos" es una lista de números enteros o decimales.
+- "k" indica el tamaño de una ventana contigua.
+- La función debe encontrar la ventana de tamaño k cuya suma sea mayor.
+- Debe devolver una tupla con este formato:
+
+(indice_inicial, suma)
+
+- Si varias ventanas tienen la misma suma máxima, devuelve la que aparezca primero.
+- Debe funcionar correctamente aunque todos los números sean negativos.
+- La complejidad temporal debe ser O(n).
+- No puedes usar librerías externas.
+- Si k es menor que 1 o mayor que la longitud de la lista, debe lanzar ValueError.
+- No modifiques la lista original.
+
+Tu respuesta debe contener únicamente un bloque de código Python, sin explicaciones fuera del código.
+
+El código debe producir estos resultados:
+
+ventana_maxima([4, -1, 2, 10, -3, 5], 3)
+# (3, 12)
+
+ventana_maxima([-5, -2, -3, -1], 2)
+# (2, -4)
+
+ventana_maxima([1, 2, 1, 2], 2)
+# (0, 3)

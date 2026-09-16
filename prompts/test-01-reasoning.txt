@@ -1,0 +1,18 @@
+Un centro logístico tiene exactamente 720 paquetes.
+
+Debe repartirlos siguiendo este orden:
+
+1. Primero aparta el 12,5% del total para pedidos prioritarios.
+2. De los paquetes que quedan, envía 2/7 a la tienda A.
+3. De los paquetes que quedan después de ese envío, manda el 30% a la tienda B.
+4. Todos los paquetes restantes se reparten entre las tiendas C y D en proporción 2:1, de modo que C recibe exactamente el doble que D.
+
+¿Cuántos paquetes recibe cada destino: prioritarios, A, B, C y D?
+
+Explica brevemente los cálculos, en un máximo de 220 palabras.
+
+Comprueba al final que la suma de todos los paquetes es exactamente 720.
+
+Termina tu respuesta con una única línea usando exactamente este formato:
+
+RESULTADO: Prioritarios=X, A=X, B=X, C=X, D=X

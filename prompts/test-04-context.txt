@@ -1,0 +1,42 @@
+Lee toda la información antes de responder.
+
+Estás revisando las notas internas de preparación de un evento.
+
+NOTAS INICIALES
+
+- El evento se celebrará en la sala Norte.
+- La capacidad prevista es de 180 personas.
+- El catering cuesta 32 euros por asistente.
+- La apertura de puertas está prevista para las 18:30.
+- Marta será la responsable de sonido.
+- Se necesitan 6 micrófonos.
+- El presupuesto máximo para catering es de 6.000 euros.
+- El equipo técnico debe llegar 90 minutos antes de la apertura.
+
+CAMBIOS POSTERIORES
+
+Durante la última reunión se aprobaron estos cambios:
+
+- Por problemas de climatización, el evento deja de celebrarse en la sala Norte y pasa definitivamente a la sala Sur.
+- La capacidad final se reduce a 150 asistentes.
+- El proveedor de catering mantiene el precio de 32 euros por persona.
+- La apertura de puertas se adelanta de 18:30 a 18:00.
+- Marta finalmente no podrá asistir. El responsable de sonido será Diego.
+- Se decidió que 4 micrófonos son suficientes.
+- El equipo técnico sigue teniendo que llegar 90 minutos antes de la apertura.
+- El presupuesto máximo para catering no cambia.
+
+NOTA BORRADOR — NO APROBADA
+
+Alguien propuso posteriormente retrasar la apertura a las 19:00 y volver a utilizar la sala Norte, pero esta propuesta nunca fue aprobada y debe ignorarse.
+
+Responde utilizando únicamente la información final aprobada.
+
+Contesta exactamente con estas seis líneas y ninguna más:
+
+SALA: nombre de la sala definitiva
+ASISTENTES: número máximo de asistentes
+CATERING: coste total del catering si asisten todos
+RESPONSABLE: nombre del responsable de sonido
+MICROFONOS: número necesario
+LLEGADA_TECNICOS: hora exacta a la que debe llegar el equipo técnico
