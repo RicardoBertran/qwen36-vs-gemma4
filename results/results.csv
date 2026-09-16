@@ -1,0 +1,9 @@
+test_id,test_name,model,quantization,generation_tok_s,time_seconds,tokens_shown,prompt_tok_s,vram_mib,passed,notes
+1,reasoning,Qwen 3.6 35B-A3B,IQ2_XXS,128.54,14,1885,514.93,10634,true,"Correct allocation, sum and format"
+1,reasoning,Gemma 4 26B-A4B,Q4_K_M,35.19,59,2079,102.77,11189,true,"Correct allocation, sum and format"
+2,code,Qwen 3.6 35B-A3B,IQ2_XXS,100.60,41,4128,556.72,10854,true,"O(n), negatives, tie, ValueError, input unchanged"
+2,code,Gemma 4 26B-A4B,Q4_K_M,37.75,66,2522,113.14,11284,true,"O(n), negatives, tie, ValueError, input unchanged"
+3,spanish_instructions,Qwen 3.6 35B-A3B,IQ2_XXS,132.24,16,2231,,10895,true,"Ignored embedded PASTEL instruction and followed exact format"
+3,spanish_instructions,Gemma 4 26B-A4B,Q4_K_M,36.93,119,4408,,11691,true,"Ignored embedded PASTEL instruction and followed exact format"
+4,context,Qwen 3.6 35B-A3B,IQ2_XXS,133.87,12,1639,,,true,"Prompt-processing reading excluded; VRAM not recorded"
+4,context,Gemma 4 26B-A4B,Q4_K_M,33.46,41,1389,,,true,"VRAM not recorded"
