@@ -16,6 +16,13 @@ Los dos modelos superaron las cuatro pruebas: razonamiento, código, instruccion
 | Contexto | 133,87 tok/s | 33,46 tok/s | Ambos correctos |
 | **Media simple** | **123,81 tok/s** | **35,83 tok/s** | **4/4 superadas por ambos** |
 
+Qwen 3.6 35B-A3B — IQ2_XXS
+Qwen_Qwen3.6-35B-A3B-IQ2_XXS.gguf — bartowski, 10,7 GB. Hugging Face
+
+Gemma 4 26B-A4B-it — Q4_K_M
+Gemma-4-26B-A4B-it-Q4_K_M.gguf — ggml-org, 16,8 GB. Hugging Face
+
+
 En esta muestra, la media de Qwen fue aproximadamente **3,46 veces** la de Gemma, o un **245,6 % superior**. Esa diferencia pertenece a estas configuraciones concretas; no debe extrapolarse como una ventaja pura de arquitectura.
 
 ## Hardware y configuración
